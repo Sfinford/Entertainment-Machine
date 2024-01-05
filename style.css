@@ -19,9 +19,9 @@ label {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
     margin: auto;
     padding: 20px;
-    max-width: 500px; /* Adjust based on your layout */
+    max-width: 700px; /* Adjust based on your layout */
     background-color: #222; /* Match your body background or as desired */
-    min-height: 570px;
+    min-height: 770px;
 }
 
 .control-area {
@@ -58,8 +58,8 @@ label {
 
 #displayArea {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     margin: auto;
     border-radius: 20px;
     overflow: hidden;
