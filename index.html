@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entertainment Machine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+    <div class="control-area">
+        <input type="checkbox" id="autoplayCheckbox">
+        <label for="autoplayCheckbox">Autoplay</label>
+        <input type="file" id="zipUpload" accept=".zip">
+        <button id="generateButton">Generate</button>
+    </div>
+    <div id="displayArea" class="hidden">
+        <img id="gifDisplay" src="" alt="Random GIF">
+        <audio id="mp3Display" controls></audio>
+        <div id="captionDisplay"></div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

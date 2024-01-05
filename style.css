@@ -1,0 +1,78 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    margin-right: 12px;
+}
+
+#wrapper {
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+    margin: auto;
+    padding: 20px;
+    max-width: 700px; /* Adjust based on your layout */
+    background-color: #222; /* Match your body background or as desired */
+    min-height: 770px;
+}
+
+.control-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#zipUpload {
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(145deg, #232323, #1a1a1a);
+    color: white;
+    box-shadow: 5px 5px 10px #0a0a0a, -5px -5px 10px #1e1e1e;
+    margin-right: 10px;
+}
+
+#generateButton {
+    background: linear-gradient(145deg, #5e5e5e, #272727);
+    color: white;
+    border: none;
+    padding: 13px 26px;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px #0a0a0a, -5px -5px 10px #1e1e1e;
+    cursor: pointer;
+}
+
+#displayArea.hidden {
+    display: none;
+}
+
+#displayArea {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#gifDisplay {
+    width: 100%;
+    height: 100%;
+}
+
+#captionDisplay {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: impact;
+}
