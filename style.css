@@ -6,6 +6,10 @@ body {
     padding: 20px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 label {
     margin-right: 12px;
 }
